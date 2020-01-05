@@ -1,0 +1,39 @@
+#header, #footer{
+  border: 0px solid;
+  padding: 20px 30px;  
+  background-color: #373737;
+
+  font-weight: bold; 
+  font-family: 'Lato', sans-serif;
+  color: #f4f4f4;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer > span > span {
+  margin: 8px;
+}
+#footer > span > span > i {
+  margin-right: 5px;
+}
+
+#brand{
+  margin: 0px 10px;
+}
+
+#content{
+  border: 1px solid; 
+  /* height: 540px; */
+  width: 100%;  
+}
+
+
+@media only screen and (max-width: 400px) {
+  #header, #footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+

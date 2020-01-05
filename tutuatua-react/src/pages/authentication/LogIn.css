@@ -1,0 +1,57 @@
+#container-login{
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* Carousel */
+#frame-logo{
+    border: 0px solid;
+    height: 550px;
+}
+
+.ant-carousel .slick-slide {
+    border: 0px solid;
+    text-align: center;
+    height: 550px;
+    line-height: 500px;
+    /* background: #364d79; */
+    background-color: #dcd0c0;
+    overflow: hidden;
+}
+
+.pic-car > img {
+    /* border: 2px solid #c0b283; */
+    height: 480px;    
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+/* login */
+#frame-login{
+    border: 0px solid;
+    height: 550px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    #container-login{        
+        grid-template-columns: 100%;  
+    }   
+    #frame-logo{
+        height: 260px;
+    }
+
+    .pic-car > img  {
+        height: 250px;    
+        margin: 20px auto;        
+    }
+
+    .ant-carousel .slick-slide {
+        height: 300px;
+    }
+}
+
+
+  

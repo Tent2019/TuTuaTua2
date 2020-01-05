@@ -1,0 +1,15 @@
+.confirm-button{
+    width: 100%;
+    border: 0px;
+    border-radius: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
+    height: 25px;
+    background-color: #00ff99;
+}
+
+.confirm-button:hover {
+    background-color: #00ffff;
+    color: black;
+}
+

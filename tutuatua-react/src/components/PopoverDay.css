@@ -1,0 +1,18 @@
+.endPopover{
+    display: flex;
+    justify-content: space-between;
+}
+
+.popover-input{
+    border: 0px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+.add-button{
+    border: 0px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 20px;
+    /* background-color: #e6ffff; */
+}
